@@ -1,11 +1,12 @@
 # Flower Classification using Vision Transformer (ViT)
 
 This project is an implementation of the Vision Transformer (ViT) model for the task of flower classification. The model is trained to classify three types of flowers: hibiscus, rose, and sunflower.
-Link to dataset: https://universe.roboflow.com/kani-tamil/flower-fgdvh/dataset/2/images
+
 
 ## Dataset
 
 The dataset used for training and evaluation is a subset of the popular flowers dataset. It consists of images of hibiscus, rose, and sunflower flowers. The dataset is split into training,validation and testing sets.
+Link to dataset: https://universe.roboflow.com/kani-tamil/flower-fgdvh/dataset/2/images
 
 ## Model Architecture
 
