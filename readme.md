@@ -1,6 +1,6 @@
 # Flower Classification using Vision Transformer (ViT)
 
-This project is an implementation of the Vision Transformer (ViT) model for the task of flower classification. The model is trained to classify three types of flowers: hibiscus, rose, and sunflower.
+This project is an implementation of the Vision Transformer (ViT) model for the task of flower classification. The model is trained from scratch and also fine-tuned Vit model to classify three types of flowers: hibiscus, rose, and sunflower.
 Link to dataset: https://universe.roboflow.com/kani-tamil/flower-fgdvh/dataset/2/images
 
 ## Dataset
@@ -29,21 +29,21 @@ The Vision Transformer (ViT) model is a transformer-based architecture designed 
 3. Update the `train_dir` and `val_dir` paths in the code to point to your training and validation data directories, respectively.
 
 4. Run the training script:
-    `Vit_from_scratch.ipynb`
+    `Vit_from_scratch.ipynb` or
+    `Vit_Pretrained.ipynb`
 The training progress and validation metrics will be printed to the console.
 
 ## Results
 
-After training for 5 epochs, the model achieved the following performance on the validation set:
+After training for 5 epochs, the plain model achieved the following performance on the validation set:
 
-- Validation Accuracy: 71%
-- Validation Loss: 0.648
+- Validation Accuracy: 62%
+- Validation Loss: 0.448
+After training for 5 epochs, the fine-tuned model achieved the following performance on the validation set:
 
-## Future Work
+- Validation Accuracy: 98%
+- Validation Loss: 0.0299
 
-- Explore different ViT architectures and hyperparameters for improved performance.
-- Extend the model to classify more flower varieties.
-- Implement techniques like data augmentation and transfer learning for better generalization.
 
 ## References
 
